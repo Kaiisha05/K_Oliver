@@ -2,7 +2,7 @@
     position: absolute;
     right: 40px;
     padding: 10px;
-  color: #fff;
+    color: #fff;
     opacity: 80%;
     border-radius: 10px;
     width: 350px;
@@ -20,4 +20,8 @@
     .fab {
     margin-top: 30px;
 }
-     
+     .fab:hover{
+       color: black;
+     }
+
+   

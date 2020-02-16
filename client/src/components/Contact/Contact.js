@@ -1,5 +1,9 @@
 import React from 'react';
 import '../../components/Contact/style.css'
+import { Link } from 'react-router-dom';
+
+
+
 function Contact() {
     return (
         <div className="wrap">
@@ -8,7 +12,7 @@ function Contact() {
                 <div className="row row-cols-1 row-cols-md-3">
                     <div className="col mb-4">
                         <div className="card h-100 text-center">
-                            <a href='https://github.com/Kaiisha05' target="_blank"><i className="fab fa-github fa-7x"></i></a>
+                            <Link to='https://github.com/Kaiisha05' target="_blank"><i className="fab fa-github fa-7x"></i></Link>
                             <div className="card-body">
                                 <h3 className="card-title">Github</h3>
                             </div>
@@ -16,7 +20,7 @@ function Contact() {
                     </div>
                     <div className="col mb-4">
                         <div className="card h-100 text-center">
-                            <a href='https://www.linkedin.com/in/kaiishao/' target="_blank"><i className="fab fa-linkedin fa-7x"></i></a>
+                            <Link to='https://www.linkedin.com/in/kaiishao/' target="_blank"><i className="fab fa-linkedin fa-7x"></i></Link>
                             <div className="card-body">
                                 <h3 className="card-title">LinkedIn</h3>
                             </div>
@@ -24,7 +28,7 @@ function Contact() {
                     </div>
                     <div className="col mb-4">
                         <div className="card h-100 text-center">
-                            <a href="#"><i className="fab fa-google-drive fa-7x"></i></a>
+                            <Link to="#"><i className="fab fa-google-drive fa-7x"></i></Link>
                             <div className="card-body">
                                 <h3 className="card-title">Resume</h3>
                             </div>
