@@ -1,24 +1,130 @@
-.App {
-  text-align: center;
+@import url(https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap);
+
+
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+list-style: none;
+text-decoration: none;
+font-family: 'Josefin Sans', sans-serif;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
+body{
+    background: linear-gradient(to right, #2d87aa 0%,#2d87aa 65%,#000000 50%, black 50%, black 100%);
 }
 
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
-  color: white;
+.wrapper {
+    display: flex;
+    position: relative;
+}
+.wrap {
+    display: flex;
+    position: inherit;
 }
 
-.App-intro {
-  font-size: large;
+.wrapper .sidebar{
+position: fixed;
+width: 200px;
+height: 100%;
+background: black;
+padding: 93px 0;
 }
 
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+.wrapper .sidebar{
+color: #fff;
+text-transform: uppercase;
+text-align: center;
+margin-bottom: 30px;
 }
+
+.wrapper .sidebar ul li{
+padding: 15px;
+border-bottom: 2px solid rgba(0,0,0,0.05);
+border-top: 2px solid rgba(225, 225, 225, 0.05);
+}
+
+.wrapper .sidebar ul li a{
+color: #2d87aa;
+display: block;
+}
+
+.wrapper .sidebar ul li a .fas{
+width: 25px;
+}
+
+.wrapper .sidebar ul li:hover{
+background: #fff;
+
+}
+
+.wrapper .sidebar ul li:hover a {
+color: black;
+
+}
+
+/* .wrapper .sidebar .social_media{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+} */
+
+/* .wrapper .sidebar .social_media a{
+    display: block;
+    width: 40px;
+    background:black;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    margin: 0 5px;
+    color: #2d87aa;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+} */
+
+.header {
+    font-size: 36px;
+}
+
+.main_content{
+width: 100%;
+margin-left: 200px;
+}
+
+.main_content .header{
+    padding: 20px;
+    background: #fff;
+    color: #717171;
+    border-bottom: 1px solid #e0e4e8;
+}
+
+.main_content .info{
+background: #fff; 
+    /* opacity: 80%; */
+border-radius: 10px;
+margin: 30px;
+padding: 30px 10px 5px 10px;
+color: #717171;
+line-height: 25px;
+}
+
+p{
+    margin-bottom:20px;
+}
+
+.profilepic{
+    margin-top: 600px;
+    /* margin-left: 60px; */
+    justify-content: right;
+    border-radius: 50px;
+}
+
+.social_media a{
+    color: #2d87aa; 
+    justify-content: space-evenly;
+    margin: 0px 10%;  
+  
+}
+
