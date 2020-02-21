@@ -19,11 +19,12 @@ body{
     position: relative;
 }
 .wrap {
+    width: 100%;
     display: flex;
-    position: inherit;
+    padding: 93px 0px;
 }
 
-.wrapper .sidebar{
+/* .wrapper .sidebar{
 position: fixed;
 width: 200px;
 height: 100%;
@@ -61,23 +62,23 @@ background: #fff;
 .wrapper .sidebar ul li:hover a {
 color: black;
 
-}
+} */
 
-.header {
+/* .header {
     font-size: 36px;
-}
+} */
 
 .main_content{
 width: 100%;
 margin-left: 200px;
 }
 
-.main_content .header{
+/* .main_content .header{
     padding: 20px;
     background: #fff;
     color: #717171;
     border-bottom: 1px solid #e0e4e8;
-}
+} */
 
 .main_content .info{
 background: #fff; 

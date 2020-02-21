@@ -1,10 +1,14 @@
 import React from 'react';
-
+import './Sidebar.css';
+import ToggleButton from'../ToggleButton/ToggleButton';
 
 function Sidebar() {
     return (
         <nav className="wrapper">
             <div className="sidebar">
+                <div>
+                    <ToggleButton />
+                </div>
                 <ul>
                     <li><a href='/'><i className="fas fa-home"></i> Home</a></li>
                     <li><a href='/portfolio'><i className="fas fa-project-diagram"></i> Portfolio</a></li>

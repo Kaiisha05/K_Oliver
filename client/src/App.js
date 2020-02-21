@@ -8,11 +8,10 @@ import About from './components/About/About';
 import Contact from './components/Contact/Contact';
 
 
-
 function App() {
   return (
     <Router>
-      <div className="App">
+      <div className="App" style={{height: '100%'}}>
         <Sidebar />
         <Switch>
           <Route exact path='/' component={Home} />

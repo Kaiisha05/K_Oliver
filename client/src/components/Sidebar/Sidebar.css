@@ -1,0 +1,39 @@
+.wrapper .sidebar{
+    position: fixed;
+    width: 200px;
+    height: 100%;
+    background: black;
+    padding: 93px 0;
+    }
+    
+    .wrapper .sidebar{
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 30px;
+    }
+    
+    .wrapper .sidebar ul li{
+    padding: 15px;
+    border-bottom: 2px solid rgba(0,0,0,0.05);
+    border-top: 2px solid rgba(225, 225, 225, 0.05);
+    }
+    
+    .wrapper .sidebar ul li a{
+    color: #2d87aa;
+    display: block;
+    }
+    
+    .wrapper .sidebar ul li a .fas{
+    width: 25px;
+    }
+    
+    .wrapper .sidebar ul li:hover{
+    background: #fff;
+    
+    }
+    
+    .wrapper .sidebar ul li:hover a {
+    color: black;
+    
+    }
